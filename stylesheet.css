@@ -102,16 +102,4 @@ input,textarea {
   padding-bottom: 20px;
 }
 
-/* レスポンシブ */
 
-media (max-width: 544px)
-.user-profile {
-    padding: 32px 0;
-    display: flex;
-    flex-direction: column;
-}
-
-@media (max-width: 767px)
-.user-profile {
-    justify-content: space-around;
-}
